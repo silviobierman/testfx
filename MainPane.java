@@ -90,7 +90,7 @@ public class MainPane extends BorderPane {
 	
 	private ArrayList<DataItem> loadDataItems() {
 		ArrayList<DataItem> items = new ArrayList<>();
-		items.add(new DataItem("Verjaardag mama","Wordt ze 37...",LocalDate.of(2023,5,5)));
+		items.add(new DataItem("Verjaardag mama","Wordt ze 37...",LocalDate.of(2023,5,3)));
 		items.add(new DataItem("Verjaardag Lana","Papa's kleine meid wordt groot",LocalDate.of(2023,8,14)));
 		items.add(new DataItem("Verjaardag papa","Wordt ie nog ouder!",LocalDate.of(2023,10,7)));
 		items.add(new DataItem("Tandarts","Halfjaarlijkse controle",LocalDate.of(2023,10,17)));
